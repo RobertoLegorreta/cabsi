@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1263.967 5003 33.128 33.127">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_552" data-name="Group 552" transform="translate(1263.967 5003)">
+    <path id="Path_2919" data-name="Path 2919" class="cls-1" d="M16.564,0A16.564,16.564,0,1,1,0,16.564,16.564,16.564,0,0,1,16.564,0Z" transform="translate(0 0)"/>
+    <g id="ic_phone_black_24px" transform="translate(6.325 6.292)">
+      <path id="Path_2920" data-name="Path 2920" class="cls-2" d="M0,0H21.417V21.417H0Z"/>
+      <path id="Path_2921" data-name="Path 2921" d="M6.716,11a15.552,15.552,0,0,0,6.766,6.766L15.741,15.5a1.021,1.021,0,0,1,1.047-.246,11.711,11.711,0,0,0,3.665.585A1.03,1.03,0,0,1,21.48,16.87v3.583a1.03,1.03,0,0,1-1.027,1.027A17.451,17.451,0,0,1,3,4.027,1.03,1.03,0,0,1,4.027,3H7.62A1.03,1.03,0,0,1,8.647,4.027a11.663,11.663,0,0,0,.585,3.665,1.03,1.03,0,0,1-.257,1.047Z" transform="translate(-1.531 -1.531)"/>
+    </g>
+  </g>
+</svg>

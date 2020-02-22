@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CABSI</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="objetos/generales/favicon.png"/>
+ 	<!-- Favicon -->
+
+ 	<!-- Manifiesto -->
+	<link rel="manifest" href="manifest.json">
+
+	<!-- Css -->
+	<link rel="stylesheet" type="text/css" href="css/generales/fontFace.css">
+	<link rel="stylesheet" type="text/css" href="css/generales/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/index/index.css">
+	<link rel="stylesheet" type="text/css" href="css/index/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/index/pasajero.css">
+
+	<!-- Javascript -->
+	<script type="text/javascript" src="js/generales/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/index/onReady.js"></script>
+	<script type="text/javascript" src="js/index/determinaLogeado.js"></script>
+	<script type="text/javascript" src="js/index/buscarTaxis.js"></script>
+	<script type="text/javascript" src="js/index/conectarTaxi.js"></script>
+	<script type="text/javascript" src="js/index/desconectarTaxi.js"></script>
+	<script type="text/javascript" src="js/index/solicitud.js"></script>
+	<script type="text/javascript" src="js/index/finalizarViaje.js"></script>
+	<script type="text/javascript" src="js/index/menu.js"></script>
+	<script type="text/javascript" src="js/index/estiloMapa.js"></script>
+	<script type="text/javascript" src="js/index/pruebas.js"></script>
+
+
+</head>
+<body>
+	<!-- Estructura básica de la app-->
+	<div id="mapa"></div>
+	<figure id="menu">
+		<img src="objetos/mapa/menu.png">
+	</figure>
+	<p id="encabezado">CABSI</p>
+	<p id="conectar" class="conectar">CONECTAR</p>
+
+	<!-- Solicitud -->
+	<p id="aceptar" class="solicitud">ACEPTAR</p>
+	<p id="rechazar" class="solicitud">RECHAZAR</p>
+
+	<!-- Menú -->
+	<div id="oscureceMenu"></div>	
+	<div id="barraMenu">
+		<div id="encabezadoMenu">
+			<figure id="fotoUsuario">
+				<img src="objetos/mapa/usuario.png">
+			</figure>
+			<p id="usuario"></p>
+		</div>
+		<p class="menuItem" id="editarPerfil">Editar perfil</p>
+		<p class="menuItem" id="editarVehiculo">Editar vehículo</p>
+		<p class="menuItem" id="cerrarSesion">Cerrar sesión</p>
+	</div>
+
+	<!-- Pasajero -->
+	<div id="pasajero">
+		<figure id="fotoPasajero">
+			<img src="objetos/mapa/usuario.png">
+		</figure>
+
+		<div class="centrarContenido">
+			<figure>
+				<img src="objetos/pasajero/pasajero.svg">
+			</figure>
+			<p id="nombrePasajero"></p>
+		</div>
+		<div class="centrarContenido">
+			<a class="telefono" href=""><figure>
+				<img src="objetos/pasajero/telefono.svg">
+			</figure></a>
+			<p id="telefonoPasajero"><a class="telefono" href=""></a></p>
+		</div>
+		<p id="finalizarViaje">Finalizar viaje</p>
+	</div>
+</body>
+	
+	<!-- Script de google maps -->
+	<script src="js/index/mapa.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDytO4Dy-TtQmgh2pdXAIIYFif9tysu_4E&callback=initMap" async defer></script>
+
+	<!-- Script de firebase -->
+	<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyC-hBIP4lHDJQFE2dodZs-kIuj32zMpibg",
+	    authDomain: "cabsi-1499062440713.firebaseapp.com",
+	    databaseURL: "https://cabsi-1499062440713.firebaseio.com",
+	    projectId: "cabsi-1499062440713",
+	    storageBucket: "cabsi-1499062440713.appspot.com",
+	    messagingSenderId: "684165612472"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+</html>

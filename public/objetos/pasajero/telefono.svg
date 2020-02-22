@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20301.033 -21903 33.127 33.127">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #505050;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #ffce54;
+      }
+
+      .cls-4 {
+        fill: #273035;
+      }
+    </style>
+  </defs>
+  <g id="Group_1608" data-name="Group 1608" transform="translate(-20301.033 -21903)">
+    <path id="Path_8610" data-name="Path 8610" class="cls-1" d="M16.564,0A16.564,16.564,0,1,1,0,16.564,16.564,16.564,0,0,1,16.564,0Z" transform="translate(0 0)"/>
+    <g id="iphone" transform="translate(-3.608 4.963)">
+      <path id="Path_8611" data-name="Path 8611" class="cls-2" d="M26.053,24.074H15.229A1.229,1.229,0,0,1,14,22.844V1.229A1.229,1.229,0,0,1,15.229,0H26.053a1.229,1.229,0,0,1,1.229,1.229V22.845A1.229,1.229,0,0,1,26.053,24.074Z" transform="translate(0 0)"/>
+      <rect id="Rectangle_911" data-name="Rectangle 911" class="cls-3" width="13.282" height="18.263" transform="translate(14 2.49)"/>
+      <g id="Group_1607" data-name="Group 1607" transform="translate(18.151 0.83)">
+        <path id="Path_8612" data-name="Path 8612" class="cls-4" d="M30.49,2H28.415a.415.415,0,1,0,0,.83H30.49a.415.415,0,1,0,0-.83Z" transform="translate(-26.34 -2)"/>
+        <path id="Path_8613" data-name="Path 8613" class="cls-4" d="M24.83,2h-.415a.415.415,0,1,0,0,.83h.415a.415.415,0,1,0,0-.83Z" transform="translate(-24 -2)"/>
+      </g>
+      <circle id="Ellipse_128" data-name="Ellipse 128" class="cls-4" cx="1.245" cy="1.245" r="1.245" transform="translate(19.396 21.168)"/>
+    </g>
+  </g>
+</svg>
